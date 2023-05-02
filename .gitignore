@@ -1,0 +1,16 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+#remove '/' from /node_modules for ignoring all sub-folders too
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+#remove '/' from /build for ignoring all sub-folders too
+build
+
+# misc
