@@ -43,3 +43,25 @@
     transform: rotate(360deg);
   }
 }
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product{
+  margin: .5rem;
+  /* max-width: 250px; */
+
+  border: 1px solid ;  
+}
+
+.product img{
+  width: 100%;  
+  max-width: 250px;
+}
+
+.product div{
+  margin: .5rem 1rem;
+}
